@@ -1,0 +1,28 @@
+# Dependencies
+node_modules/
+
+# Environment files / secrets
+.env
+.env.*
+!.env.example
+
+# Build output
+dist/
+frontend/dist/
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Python cache if reference files are edited locally
+__pycache__/
+*.pyc
+
+# Local MongoDB data
+mongodb-data/
