@@ -36,31 +36,6 @@ CoinGecko's historical chart endpoint provides price, market cap and total volum
 
 **The prediction is for educational/project demonstration purposes and is not financial advice.**
 
-## Project structure
-
-```text
-dogecoin-price-prediction-mern/
-├── backend/
-│   ├── src/
-│   │   ├── models/
-│   │   ├── routes/
-│   │   ├── services/
-│   │   └── utils/
-│   ├── .env.example
-│   └── package.json
-├── frontend/
-│   ├── src/
-│   ├── .env.example
-│   ├── index.html
-│   └── package.json
-├── reference/
-│   ├── dogecoin_model.pkl
-│   └── original_streamlit_app.py
-├── .gitignore
-├── package.json
-└── README.md
-```
-
 ## Requirements
 
 - Node.js 20.19+ (Node 22 LTS is recommended)
